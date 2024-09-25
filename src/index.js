@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Mod01Registration from './Mod01Registration';
 import GreetHello from './Greetings/GreetHello';
 import Homepage from './Greetings/Conditionals/Homepage';
-import LogAdmin from './Dashboard/LogAdmin';
+import UserProfilePage from './Profile/UserProfilePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LogAdmin/>
+    {/* <App /> */}
+    <UserProfilePage/>
   </React.StrictMode>
 );
 

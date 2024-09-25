@@ -1,0 +1,39 @@
+.mang-inasal-form {
+    background-color: #FFF3E0; /* Light background */
+    border: 2px solid #D61A24; /* Mang Inasal red border */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Limit width */
+    margin: 20px auto; /* Center the form */
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 15px; /* Spacing between labels */
+    color: #333; /* Dark text for labels */
+}
+
+.form-input {
+    width: 100%; /* Full-width input fields */
+    padding: 10px;
+    border: 1px solid #D61A24; /* Red border */
+    border-radius: 5px;
+    margin-top: 5px; /* Spacing above inputs */
+    font-size: 16px;
+}
+
+.form-button {
+    background-color: #D61A24; /* Mang Inasal red button */
+    color: #FFF; /* White text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #A61A24; /* Darker red on hover */
+}

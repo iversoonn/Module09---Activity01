@@ -1,0 +1,29 @@
+.mang-inasal-nav {
+    background-color: #D61A24; /* Mang Inasal red */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    color: #FFF; /* White text for contrast */
+    font-family: 'Arial', sans-serif; /* Choose a clean font */
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.nav-item:hover {
+    background-color: #A61A24; /* Darker red for hover effect */
+    transform: scale(1.05); /* Slightly scale up on hover */
+    border-radius: 3px;
+}

@@ -1,0 +1,23 @@
+.mang-inasal-profile {
+    background-color: #FFF3E0; /* Light background for contrast */
+    border: 2px solid #D61A24; /* Mang Inasal red border */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Limit the width */
+    margin: 20px auto; /* Center the profile */
+    text-align: center; /* Center the text */
+}
+
+.profile-name {
+    color: #D61A24; /* Use Mang Inasal red for name */
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-email, .profile-username {
+    color: #333; /* Darker color for email and username */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
