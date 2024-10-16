@@ -7,12 +7,15 @@ import Mod01Registration from './Mod01Registration';
 import GreetHello from './Greetings/GreetHello';
 import Homepage from './Greetings/Conditionals/Homepage';
 import UserProfilePage from './Profile/UserProfilePage';
+import MainEvent from './Events/MainEvent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <UserProfilePage/>
+    {/* <UserProfilePage/> */}
+    <MainEvent/>
+
   </React.StrictMode>
 );
 
