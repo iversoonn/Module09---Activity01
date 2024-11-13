@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Mod01Registration from './Mod01Registration';
 import GreetHello from './Greetings/GreetHello';
@@ -12,9 +12,9 @@ import MainEvent from './Events/MainEvent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <UserProfilePage/> */}
-    <MainEvent/>
+    {/* <MainEvent/> */}
 
   </React.StrictMode>
 );
