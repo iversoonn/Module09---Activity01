@@ -4,7 +4,7 @@ import { Link, Route, Routes} from "react-router-dom";
 import ControlledInput from "./ControlledInput";
 import UncontrolledInput from "./UncontrolledInput";
 import TabbedForm from "./TabForm/TabbedForm";
-
+import MyData from "./MyData";
 const MyMainForms = () => {
        return (
         <div>
@@ -15,6 +15,7 @@ const MyMainForms = () => {
                     <li><Link to="controlled-input">Controlled Input</Link></li>
                     <li><Link to="uncontrolled-input">UncontrolledInput Input</Link></li>
                     <li><Link to="tabbed-form">Tabbed Form</Link></li>
+                    <li><Link to="my-data">My Data</Link></li>
                 </ul>
             </nav>
             <Routes>
@@ -22,6 +23,7 @@ const MyMainForms = () => {
                 <Route path="controlled-input" element={<ControlledInput />} />
                 <Route path="uncontrolled-input" element={<UncontrolledInput />} />
                 <Route path="tabbed-form" element={<TabbedForm />} />
+                <Route path="my-data" element={<MyData />} />
             </Routes>
         </div>
     );
